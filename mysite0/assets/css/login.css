@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* 아이디 비번 사이즈 */
+#content #input-idpw{
+    
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+    margin: 0px 0px 50px 0px;
+}
+/* 아이디 */
+#uid{
+    height: 20px;
+    width: 100px;
+}
+/* 비밀번호 */
+#upw{
+    height: 20px;
+    width: 100px;
+}
+/* 로그인 회원가입 div */
+#logbtn{
+    text-align: center;
+
+}
+/* 회원가입 링크 */
+#logbtn a {
+    font-size: 20px;
+    margin: 0px 0px 0px 10px;
+}
+/* 회원가입 호버 */
+#logbtn a:hover{
+    font-weight: bold;
+    
+}

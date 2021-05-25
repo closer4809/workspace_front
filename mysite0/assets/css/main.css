@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+#full-content #prfileimg{
+    width: 300px;
+    float: left;
+    margin: 0px 20px 0px 0px;   
+}
+
+
+
+#full-content #greethings{
+    float: left;
+   }
+
+#full-content #greetings #greet {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 0px 40px 0px;
+}
+
+#full-content #greetings #desc{
+    font-size: 15px;
+    margin: 0px 0px 0px 0px;
+}                

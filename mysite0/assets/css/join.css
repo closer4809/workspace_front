@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+#joinus form div{
+    width: 100px;
+   
+}
+
+#joinus{
+    float: left;
+    text-align: center;
+}
+
+#twbtn{
+    background-color: red;
+    float: left;
+}

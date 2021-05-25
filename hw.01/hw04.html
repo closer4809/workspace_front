@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>html5_form과제</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form action="join,jsp" method="">
+            <label for="uid">아이디</label>
+            <input id="uid" type="text" name="user-id" value="" placeholder="아이디를 입력하세요">
+            <br>
+
+            <label for="upassword">비밀번호</label>
+            <input id="upassword" type="text" name="user-password" value="" placeholder="비밀번호를 입력하세요">
+            <Br>
+
+            <label for="uname">이름</label>
+            <input id="uname" type="text" name="user-name" value="" placeholder="이름을 입력하세요"> 
+            <br>
+            
+            <label for="uprofile">프로필사진</label>
+            <input id="uprofile" type="file" name="user-profile" value="">
+            <Br>    
+            
+            <!--주소-->
+            <label for="ad">주소</label>
+            <input id="ad" type="text" name="addras" placeholder="우편번호를 입력하세요"><button type="button">우편번호찾기</button>
+            <br>
+            <input id="ad" type="text" name="addras" placeholder="주소를 입력하세요">
+            <br> 
+            
+            <label for="utelecom">이동통신사</label>
+            <select id="utelecom" name="user-telecom">  
+                <option selected="selected" value="">선택해주세요</option>
+                <option value="sk">SKT</option>
+                <option value="kt">KT</option>
+                <option value="lg">LGU+</option>
+                <option value="ect">기타</option>
+            </select>
+            <br>
+
+            <p>나이</p><!--어뜨케????-->
+            <label for="10">10대</label>
+            <input id="10" type="radio" name="age" value="10" checked="checked">
+            <label for="20">20대</label>
+            <input id="20" type="radio" name="age" value="20">
+            <label for="30">30대</label>
+            <input id="30" type="radio" name="age" value="30">
+            <label for="40">40대</label>
+            <input id="40" type="radio" name="age" value="40">
+            <br>
+
+            <p>취미</p><!--맞아?-->
+            <label for="book">독서</label>
+            <input id="book" type="checkbox" name="hobby" value="b" checked="checked">
+            <label for="music">음악</label>
+            <input id="music" type="checkbox" name="hobby" value="m">
+            <label for="trip">여행</label>
+            <input id="trip" type="checkbox" name="hobby" value="t">
+            <label for="coding">코딩</label>
+            <input id="coding>" type="checkbox" name="hobby" value="c">
+            <label for="ect">기타</label>
+            <input id="ect" type="checkbox" name="hobby" value="e">
+            <br>
+
+            <label for="introduce">자기소개</label>
+            <textarea for="introduc" placeholder="5줄 이상 작성해주세요"></textarea>
+            <br>
+
+            <button type="submit">등록</button><button type="reset">초기화</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        </form>    
+    </body>
+    </html>

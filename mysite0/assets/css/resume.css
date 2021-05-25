@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body #rtable{
+    
+    border-collapse: collapse;
+    float: right;
+  
+}
+
+body #rtable td{
+    border: 1px solid #000000
+}
+
+body #rtable tr{
+    border: 1px solid #000000
+}
+
+body #rtable th{
+    border: 1px solid #000000
+}

@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* 보드 안먹힘 */
+
+
+#board #search-area form{
+    
+    float: right;
+}
+
+
+
+#board #search-area form input[type="text"]{
+    height: 25px;
+    width: 150;
+}
+
+#board #search-area form button{
+    padding: 3px 5px 3px 5px;
+    
+
+}
+/* 게시판리스트 */
+#board #boarder-list table{
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-right: none;
+    border-left: none; 
+    margin: 10px 0px 10px 0px;
+}    
+
+#board #boarder-list table thead tr{
+    border-bottom:1px dotted black ;
+    height: 50px;
+
+}
+
+#board #boarder-list table tbody tr{
+    border-bottom:1px dotted black ;
+    height: 40px;
+}
+
+
+#board #boarder-list table thead{
+    background-color: #dddddd;
+
+}
+/* 페이징 */
+
+#board #pager{
+  
+    
+    text-align: center;
+}
+
+#board #pager ol{
+  
+    width: 190px;
+    display: inline-block;
+    /* margin: 0 auto; */
+}
+
+#board #pager ol>li{
+    float: left;
+    margin: 0px 5px 0px 0px;
+    }
+
+#board #pager ol>li>a.active{
+    font-size: 15px;
+    font-weight: bold;
+    color: #0000FF;
+}
+
+#board #pager #btn-write{
+    float: right;
+    border: 1px solid #808080;  
+    background-color: #dddddd;
+    padding: 5px 10px 5px 10px;
+    border-radius: 2px;
+}
